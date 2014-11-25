@@ -27,7 +27,7 @@ class graylog2::server::params {
   $service_ensure = 'running'
   $service_enable = true
 
-  $config_file = '/etc/server/graylog2.conf'
+  $config_file = '/etc/graylog2/server/graylog2.conf'
   $daemon_username = 'graylog2'
 
   # Config file variables.
